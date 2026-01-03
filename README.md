@@ -26,32 +26,6 @@ REST API for image classification
 
 Modular and scalable project structure
 
-### Project Structure
-AI-Galaxy-Classification/
-│
-├── api/
-│   └── classify.py          # Flask API for inference
-│
-├── data/
-│   ├── raw/                 # Original dataset
-│   ├── train/               # Processed training data
-│   └── test/                # Test images
-│
-├── model/
-│   ├── model_utils.py       # Model architecture & utilities
-│   ├── prepare_dataset.py   # Dataset preprocessing
-│   ├── train_model.py       # Training pipeline
-│   └── galaxy_classifier.h5 # Trained model
-│
-├── pages/                   # Next.js frontend pages
-├── styles/                  # Global CSS
-│
-├── requirements.txt         # Python dependencies
-├── package.json             # Frontend dependencies
-├── next.config.js           # Next.js configuration
-├── vercel.json              # Deployment configuration
-└── README.md
-
 ### Tech Stack
 
 #### Backend / ML
@@ -81,20 +55,21 @@ Tailwind CSS
 ### Installation
 1. Clone the Repository
 git clone https://github.com/Ishika-guptaa25/AI-Galaxy-Classification.git
+
 cd AI-Galaxy-Classification
 
-2. Create Virtual Environment
+3. Create Virtual Environment
 python -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
 
-3. Install Python Dependencies
+4. Install Python Dependencies
 pip install -r requirements.txt
 
-4. Install Frontend Dependencies
+5. Install Frontend Dependencies
 npm install
 
-Dataset Preparation
+### Dataset Preparation
 
 Download a galaxy image dataset (Galaxy Zoo or similar).
 
