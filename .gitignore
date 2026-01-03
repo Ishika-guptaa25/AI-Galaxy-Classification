@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data & models (heavy)
+data/
+*.h5
+*.keras
+
+# Node
+node_modules/
+
+# System
+.DS_Store
